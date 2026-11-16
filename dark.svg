@@ -1,91 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Abhay Tiwari, Full Stack Developer profile banner">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#10243a"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#4de2d0"/>
-      <animate attributeName="x1" values="0;0.25;0" dur="12s" repeatCount="indefinite"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#4de2d0" stop-opacity=".22"/><stop offset="1" stop-color="#4de2d0" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="12"/>
-    </filter>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#29445d" stroke-width=".6" opacity=".42"/>
-    </pattern>
-    <clipPath id="frame"><rect x="18" y="18" width="1144" height="574" rx="24"/></clipPath>
-  </defs>
-  <g clip-path="url(#frame)">
-    <rect width="1180" height="610" fill="url(#bg)"/>
-    <rect width="1180" height="610" fill="url(#grid)" opacity=".45"/>
-    <circle cx="190" cy="245" r="260" fill="url(#glow)"/>
-    <circle cx="1010" cy="520" r="300" fill="url(#glow)" opacity=".65"/>
-    <rect x="18" y="18" width="1144" height="574" rx="24" fill="none" stroke="#29445d" stroke-width="1.5"/>
-    <rect x="18" y="18" width="1144" height="46" fill="#0d1b2d" opacity=".96"/>
-    <circle cx="46" cy="41" r="6" fill="#ff6b6b"/><circle cx="68" cy="41" r="6" fill="#f5c451"/><circle cx="90" cy="41" r="6" fill="#45c98b"/>
-    <text x="120" y="46" fill="#93a8bd" font-family="monospace" font-size="14">abhaytiwari321 / profile</text>
-    <text x="1090" y="46" text-anchor="end" fill="#4de2d0" font-family="monospace" font-size="12" letter-spacing="2">● ONLINE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Abhay Tiwari, Full Stack Developer">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#12263A"/></linearGradient>
+ <linearGradient id="edge"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#46D9D0"/></linearGradient>
+ <radialGradient id="glow"><stop offset="0" stop-color="#46D9D0" stop-opacity=".18"/><stop offset="1" stop-color="#46D9D0" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#29445C" stroke-width=".55" opacity=".5"/></pattern>
+ <clipPath id="outer"><rect x="18" y="18" width="1144" height="574" rx="22"/></clipPath>
+ <clipPath id="portraitClip"><rect x="72" y="170" width="358" height="282" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#outer)">
+ <rect width="1180" height="610" fill="url(#bg)"/><rect width="1180" height="610" fill="url(#grid)" opacity=".45"/>
+ <circle cx="170" cy="250" r="260" fill="url(#glow)"/><circle cx="1000" cy="500" r="280" fill="url(#glow)"/>
+ <rect x="18" y="18" width="1144" height="574" rx="22" fill="none" stroke="#29445C"/>
+ <rect x="18" y="18" width="1144" height="46" fill="#0D1B2B"/>
+ <circle cx="46" cy="41" r="6" fill="#FF6B6B"/><circle cx="68" cy="41" r="6" fill="#F5C451"/><circle cx="90" cy="41" r="6" fill="#45C98B"/>
+ <text x="120" y="46" fill="#9AAEC2" font-family="monospace" font-size="14">abhaytiwari321 / profile</text>
+ <text x="1090" y="46" text-anchor="end" fill="#46D9D0" font-family="monospace" font-size="12" letter-spacing="2">● ONLINE</text>
 
-    <!-- left visual panel -->
-    <rect x="42" y="88" width="420" height="470" rx="18" fill="#0d1b2d" fill-opacity=".78" stroke="#29445d"/>
-    <text x="68" y="122" fill="#4de2d0" font-family="monospace" font-size="12" letter-spacing="2">VISUAL.MAP</text>
-    <text x="432" y="122" text-anchor="end" fill="#93a8bd" font-family="monospace" font-size="11">01 / IDENTITY</text>
-    <rect x="66" y="144" width="372" height="330" rx="12" fill="#10243a" fill-opacity=".68" stroke="#29445d"/>
-    <text x="88" y="174" fill="#93a8bd" font-family="monospace" font-size="10">user@abhay:~$ render --portrait</text>
-    <text x="88" y="210" fill="#4de2d0" font-family="monospace" font-size="11" xml:space="preserve"><tspan x="90" dy="0">                ..··....          </tspan>
-<tspan x="90" dy="16">           .·.··+++++::+:··.      </tspan>
-<tspan x="90" dy="16">         .:::·::++++:·:::.::...   </tspan>
-<tspan x="90" dy="16">       .···::::::::::·:++·:···:·  </tspan>
-<tspan x="90" dy="16">       .++::+++++:::·::++::··:+::·</tspan>
-<tspan x="90" dy="16">       .·::+++++::++:::::·:::+++::</tspan>
-<tspan x="90" dy="16">   .··..  .:+**####*+··::··:+:++++</tspan>
-<tspan x="90" dy="16">   .:·····:+*%%%%%%%#+·:::·:+::+::</tspan>
-<tspan x="90" dy="16">   .::::::::**+++**#%#·.·:·+:++:··</tspan>
-<tspan x="90" dy="16">   ·::::++:+*::::::+*#+.·:·++*+:··</tspan>
-<tspan x="90" dy="16">   ·····+:+++::::::::+*..:·:++++::</tspan>
-<tspan x="90" dy="16">   ·:::::+::++#*:*#*++*:···::*+++:</tspan>
-<tspan x="90" dy="16">   ·:·.:+*++::+:·++++:*:+:·::::·:+</tspan>
-<tspan x="90" dy="16">   ·+:.·:+:::::::::::++:++··:···:+</tspan>
-<tspan x="90" dy="16">   ·+::+···:+++**++++::+++·:+**:·:</tspan>
-<tspan x="90" dy="16">   :*:::+·..:*+++++**···:+·:+#**·.</tspan>
-<tspan x="90" dy="16">   :*:··:::::**+++*#+··.·+:·:+*::·</tspan>
-<tspan x="90" dy="16">   ·++:++++:++*#%##*:.:::+:++++:++</tspan>
-<tspan x="90" dy="16">   ·********#*++**+*####******::+*</tspan>
-<tspan x="90" dy="16">   :******###%*++*#####*####**+:++</tspan>
-<tspan x="90" dy="16">   :#******#%#*++#%%#####**#**++:·</tspan>
-<tspan x="90" dy="16">   :#**###*###%%%##########*****+:</tspan>
-<tspan x="90" dy="16">   :%##****###%%##*#####%##**#**+:</tspan>
-<tspan x="90" dy="16">   :###########%##*##*######***#+:</tspan>
-<tspan x="90" dy="16">   .*%##*#%##*##%%**##%*%%%#******</tspan>
-<tspan x="90" dy="16">     +%##*####*#%%#**###%%##*****:</tspan>
-<tspan x="90" dy="16">      ·##%##*##*%%##**#%#%#####+. </tspan></text>
-    <path d="M66 488 H438" stroke="#29445d"/>
-    <text x="68" y="516" fill="#f3f7ff" font-family="monospace" font-size="13">BUILD  ·  LEARN  ·  SHIP</text>
-    <text x="68" y="539" fill="#93a8bd" font-family="monospace" font-size="11">Full Stack Development</text>
+ <rect x="42" y="88" width="420" height="470" rx="18" fill="#0D1B2B" fill-opacity=".88" stroke="#29445C"/>
+ <text x="68" y="122" fill="#46D9D0" font-family="monospace" font-size="12" letter-spacing="2">VISUAL.MAP</text>
+ <text x="436" y="122" text-anchor="end" fill="#9AAEC2" font-family="monospace" font-size="10">01 / IDENTITY</text>
+ <rect x="66" y="144" width="372" height="326" rx="12" fill="#12263A" stroke="#29445C"/>
+ <text x="86" y="164" fill="#9AAEC2" font-family="monospace" font-size="9">user@abhay:~$ render --portrait</text>
+ <g clip-path="url(#portraitClip)">
+  <text x="88" y="188" fill="#46D9D0" font-family="monospace" font-size="7.6" letter-spacing="0" xml:space="preserve"><tspan x="88" dy="0">            `~{fx?!})(jJcvnvzx1(nntn1`vz+;:`.</tspan><tspan x="88" dy="10">       ..`:,!1\jvt/n)|xrxuvvx/-1vrzY{ixv}+??{+,.</tspan><tspan x="88" dy="10">     ...`ltr|[|\xvcXnXcXcf}{)}}?/xOJ/?v{l-(jXx/]</tspan><tspan x="88" dy="10">         :tzYrruzzCZLzzufnUzr[jj\jxYf1z||(xXLUtt</tspan><tspan x="88" dy="10">  &#x27;!;,;^ ^^,+!1rUXJOLJQYCL0Lc/|t)}f{-[)/nzLtYCQU</tspan><tspan x="88" dy="10">. &#x27;j/(1_;!l:^l-/Lp*&amp;%B%%@%&amp;WaQx]+|xu|]1nxJu{uYLJ</tspan><tspan x="88" dy="10">  .1f11\|f\\1jzzO&amp;$8MMW&amp;B@$$@%*z~}t|r}[ucuxtzztt</tspan><tspan x="88" dy="10">  &#x27;ttfnvv\/cXr\fQpzrjrrruYQdW@$o).lir1}xJcvZOv]_</tspan><tspan x="88" dy="10">  .r|-){{/cYcxrJbu///||||\jnzQdMZ`,if([/COXCzn\1</tspan><tspan x="88" dy="10">  `n}[(|}]rzfYfcCjcUCJnfnzXcunvwai!;/?-fxxvUZJLU</tspan><tspan x="88" dy="10">  `Jf[111ffcJY|YzxLq*hXtm#obqzjLw/f{v+_(/xXQJnvX</tspan><tspan x="88" dy="10">  &#x27;Uf[]linrCwcvJj((fr/11juXXnrtCOzfzZ[[(jr1{1(}/</tspan><tspan x="88" dy="10">  &#x27;YYft1;trjc/urxjxnfvcUcrt\/jrCXjULZ\{{|v)\1)((</tspan><tspan x="88" dy="10">  &#x27;JQXucYUt_|)?fcUJQJZdkZUJUJJf}uJLC0\_1fvCkbOr)</tspan><tspan x="88" dy="10">  &#x27;ZdQt\|nYz[_l+[mwXxvYYXXLmbmf~_!{tcn})|vZhb0L[</tspan><tspan x="88" dy="10">  `OmY\|}-1x)t\j/xqhmQOLCmaWb/!i]ll)YX\(}txUbXj/</tspan><tspan x="88" dy="10">  `zLYuvuUCzccv\JmvUq#%B%MbZCf~|zx|fCX1uYUZCJruz</tspan><tspan x="88" dy="10">  `CZmOOZZwbdwdo*aqYcU0wmLOh*%W*8#Mbpkkd0CapX(rU</tspan><tspan x="88" dy="10">  `qbddbdbkhkh*&amp;M8@aXvccC*&amp;#a*&amp;%#da&amp;##W&amp;oppwOucU</tspan><tspan x="88" dy="10">  &#x27;b&amp;khhkhbbkkb8$$&amp;d0QQLa@$$%&amp;8M#&amp;B%hhbhhpwZOUvr</tspan><tspan x="88" dy="10">  &#x27;wWbpqo&amp;ohaddW##M%$$$$Wo#aoa*%ka#M#&amp;&amp;#bqqqbhqd</tspan><tspan x="88" dy="10">. &#x27;q8B*#MbqqppaBW#8%$@%BMmb&amp;8&amp;MW#W@B%8hbkbhokbdC</tspan><tspan x="88" dy="10">  `pW%Mb&amp;MoahkaW88B8B@%B@kmo#hbo%&amp;WWW88Mobdpph#m</tspan><tspan x="88" dy="10">  .rkB$Mooka*%$8*khoo@@$$WpqdW8@$okB@$88#pqqpdhk</tspan><tspan x="88" dy="10">    :tk$8Bodk8%@%WW#w8$$$a*wm#W#*W&amp;@$%W#abbdpmmd</tspan><tspan x="88" dy="10">      ^|wB8W%Wo*o**%wk$$$hBMZwbh#@%B$MoM*ooo**O|</tspan></text>
+ </g>
+ <path d="M66 488H438" stroke="#29445C"/>
+ <text x="68" y="516" fill="#F4F7FB" font-family="monospace" font-size="13">BUILD  ·  LEARN  ·  SHIP</text>
+ <text x="68" y="539" fill="#9AAEC2" font-family="monospace" font-size="11">Full Stack Development</text>
 
-    <!-- right information panel -->
-    <rect x="486" y="88" width="652" height="470" rx="18" fill="#0d1b2d" fill-opacity=".82" stroke="#29445d"/>
-    <text x="518" y="122" fill="#4de2d0" font-family="monospace" font-size="12" letter-spacing="2">SYSTEM.INFO</text>
-    <text x="1104" y="122" text-anchor="end" fill="#93a8bd" font-family="monospace" font-size="11">PROFILE.SYS</text>
-    <text x="520" y="184" fill="#f3f7ff" font-family="Arial, sans-serif" font-size="39" font-weight="700">Abhay Tiwari</text>
-    <text x="522" y="220" fill="#a78bfa" font-family="Arial, sans-serif" font-size="21" font-weight="600">Full Stack Developer</text>
-    <text x="522" y="253" fill="#93a8bd" font-family="Arial, sans-serif" font-size="15">Information Technology student · India</text>
-    <path d="M520 278 H1104" stroke="#29445d"/>
-    <text x="522" y="312" fill="#93a8bd" font-family="monospace" font-size="12">FOCUS</text>
-    <text x="700" y="312" fill="#f3f7ff" font-family="Arial, sans-serif" font-size="15">Building web applications with modern technologies</text>
-    <text x="522" y="352" fill="#93a8bd" font-family="monospace" font-size="12">STACK</text>
-    <text x="700" y="352" fill="#f3f7ff" font-family="Arial, sans-serif" font-size="15">C · C++ · JavaScript · React · Node.js · MongoDB</text>
-    <text x="700" y="376" fill="#f3f7ff" font-family="Arial, sans-serif" font-size="15">HTML · CSS · Tailwind · Docker · Git · Figma</text>
-    <path d="M520 402 H1104" stroke="#29445d"/>
-    <text x="522" y="435" fill="#93a8bd" font-family="monospace" font-size="12">CONNECT</text>
-    <text x="700" y="435" fill="#4de2d0" font-family="monospace" font-size="14">LinkedIn  /  Instagram  /  LeetCode</text>
-    <text x="522" y="492" fill="#4de2d0" font-family="monospace" font-size="12">$ ./profile.sh --status</text>
-    <text x="522" y="520" fill="#f3f7ff" font-family="monospace" font-size="13">Curious mind. Consistent builder.</text>
-    <rect x="18" y="18" width="1144" height="574" rx="24" fill="none" stroke="url(#accent)" stroke-width="1.2" opacity=".8">
-      <animate attributeName="opacity" values=".45;.9;.45" dur="7s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-</svg>
+ <rect x="486" y="88" width="652" height="470" rx="18" fill="#0D1B2B" fill-opacity=".9" stroke="#29445C"/>
+ <text x="518" y="122" fill="#46D9D0" font-family="monospace" font-size="12" letter-spacing="2">SYSTEM.INFO</text>
+ <text x="1104" y="122" text-anchor="end" fill="#9AAEC2" font-family="monospace" font-size="10">PROFILE.SYS</text>
+ <text x="520" y="184" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="39" font-weight="700">Abhay Tiwari</text>
+ <text x="522" y="220" fill="#A78BFA" font-family="Arial, sans-serif" font-size="21" font-weight="600">Full Stack Developer</text>
+ <text x="522" y="253" fill="#9AAEC2" font-family="Arial, sans-serif" font-size="15">Information Technology student · India</text>
+ <path d="M520 278H1104" stroke="#29445C"/>
+ <text x="522" y="312" fill="#9AAEC2" font-family="monospace" font-size="12">FOCUS</text>
+ <text x="700" y="312" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="15">Web application development</text>
+ <text x="522" y="352" fill="#9AAEC2" font-family="monospace" font-size="12">STACK</text>
+ <text x="700" y="352" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="15">JavaScript · React · Node.js · MongoDB</text>
+ <text x="700" y="376" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="15">C · C++ · HTML · CSS · Tailwind · Docker</text>
+ <path d="M520 402H1104" stroke="#29445C"/>
+ <text x="522" y="435" fill="#9AAEC2" font-family="monospace" font-size="12">CONNECT</text>
+ <text x="700" y="435" fill="#46D9D0" font-family="monospace" font-size="14">LinkedIn  /  Instagram  /  LeetCode</text>
+ <text x="522" y="492" fill="#46D9D0" font-family="monospace" font-size="12">$ ./profile.sh --status</text>
+ <text x="522" y="520" fill="#F4F7FB" font-family="monospace" font-size="13">Curious mind. Consistent builder.</text>
+ <rect x="18" y="18" width="1144" height="574" rx="22" fill="none" stroke="url(#edge)" opacity=".8">
+  <animate attributeName="opacity" values=".45;.9;.45" dur="8s" repeatCount="indefinite"/>
+ </rect>
+</g></svg>
